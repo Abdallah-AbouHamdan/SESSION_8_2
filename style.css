@@ -213,7 +213,65 @@ header::before {
 
 
 
-
+.skills-sec{
+    height: 90vh;
+    background-color: var(--color2);
+}
+.s-s-d1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.p6{
+    color: var(--color4);
+    font-size: 1.3rem;
+}
+.p7 {
+    color: var(--color3);
+    font-size: 1rem;
+}
+.svg-con{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: var(--color7);
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+.svg-size{
+    width: 40px;
+}
+.svg-bg{
+    background-color: var(--color5);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 1000000px;
+    margin-top: -10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+}
+.s-s-d11{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
 @media(max-width: 1050px) {
     .home-sec {
         background-color: var(--color2);
