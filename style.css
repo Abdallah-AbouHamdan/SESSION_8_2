@@ -336,7 +336,89 @@ header::before {
 
 
 
-
+.contact-sec{
+    height: 90vh;
+    background-color: var(--color2);
+}
+.c-s-d1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+}
+.svg-bg2{
+    background-color: var(--color5);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border-radius: 1000000px;
+    margin-top: -10px;
+}
+.c-con{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    width:400px;
+    background-color: var(--color1);
+}
+.c-i{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.c-t{
+    color: var(--color4);
+}
+.c-d{
+    color: var(--color3);
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.full-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--color1);
+    padding: 20px 40px;
+    border-radius: 40px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color2);
+}
+textarea{
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    background-color: var(--color2);
+}
 @media(max-width: 1050px) {
     .home-sec {
         background-color: var(--color2);
