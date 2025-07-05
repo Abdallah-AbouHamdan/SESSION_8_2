@@ -176,3 +176,139 @@ header::before {
 }
 
 
+.about-sec {
+    display: flex;
+    height: 90vh;
+    padding: 40px;
+    gap: 30px;
+    background-color: var(--color7);
+}
+
+.a-s-d1 {
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+
+}
+.p5 {
+    color: var(--color3);
+    font-size: 1.3rem;
+}
+.a-s-d2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 6rem;
+}
+
+.a-s-d2 img {
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+@media(max-width: 1050px) {
+    .home-sec {
+        background-color: var(--color2);
+        margin-top: 1vh;
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 30px;
+    }
+
+    .h-s-d1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .h-s-d2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .p3 {
+        color: var(--color4);
+        font-size: 2.5rem;
+    }
+
+    .p4 {
+        color: var(--color3);
+        font-size: 1rem;
+    }
+    .about-sec {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        padding: 40px;
+        gap: 30px;
+        background-color: var(--color7);
+    }
+
+    .a-s-d2 {
+        width: 100%;
+    }
+
+    .a-s-d1 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .list {
+        display: inline-flex;
+    }
+
+    #checked:checked~.list #menulist {
+        display: none;
+    }
+
+    #checked:checked~.list #closelist {
+        display: block;
+    }
+
+    .links {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: 0;
+        background-color: var(--color1);
+        backdrop-filter: blur(50%);
+        box-shadow: 0 .1px .3rem rgba(123, 123, 123, 0.665);
+        transition: .3s ease;
+        overflow: hidden;
+    }
+
+    #checked:checked~.links {
+        height: 12rem;
+    }
+
+    .links a {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        color: var(--color4);
+    }
+
+    .list #closelist {
+        display: none;
+    }
+}
