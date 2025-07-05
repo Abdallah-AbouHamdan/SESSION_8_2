@@ -413,11 +413,60 @@ input{
     background-color: var(--color2);
 }
 textarea{
-    height: 200px;
+    height: 130px;
     border-radius: 20px;
     padding: 20px;
     border: none;
     background-color: var(--color2);
+}
+.btn3{
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color5);
+
+}
+
+
+
+
+
+footer{
+    height: 40vh;
+    background-color: #121825;
+}
+.boudy{
+    width: 300px;
+}
+.ldiv{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.llinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.last-svg{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1000px;
+    background-color: var(--color2);
+}
+.a5lst{
+    display: flex;
+    gap: 20px;
 }
 @media(max-width: 1050px) {
     .home-sec {
@@ -504,6 +553,7 @@ textarea{
     .contact-sec{
         height: 145vh;
     }
+    
 }
 
 @media(max-width: 770px) {
