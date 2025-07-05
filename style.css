@@ -6,3 +6,77 @@
     font-weight: 400;
     font-style: normal;
 }
+
+:root {
+    --color1: #121825;
+    --color2: #0D1119;
+    --color3: #8F9FB3;
+    --color4: #ffffff;
+    --color5: #6C63FF;
+    --color6: #FF6584;
+    --color7: #1A1F2E;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    padding: .3rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: var(--color1);
+    color: var(--color4);
+    border-bottom: solid .3px var(--color3);
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 60px;
+}
+
+.dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.p1 {
+    font-size: 40px;
+}
+
+.links a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--yellow);
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+#checked {
+    display: none;
+}
+
+.list {
+    position: absolute;
+    right: 5%;
+    width: 60px;
+    cursor: pointer;
+    display: none;
+    color: var(--yellow);
+}
+
+
+
