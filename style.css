@@ -214,7 +214,6 @@ header::before {
 
 
 
-
 @media(max-width: 1050px) {
     .home-sec {
         background-color: var(--color2);
@@ -270,7 +269,16 @@ header::before {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 770px) {
+    .skills-sec{
+        height: 160vh;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+    }
     .list {
         display: inline-flex;
     }
