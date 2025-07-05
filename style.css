@@ -272,6 +272,11 @@ header::before {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
 @media(max-width: 1050px) {
     .home-sec {
         background-color: var(--color2);
@@ -324,6 +329,27 @@ header::before {
 
     .a-s-d1 {
         width: 100%;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 40px 40px 0px;
+    }
+    .projects-sec{
+        height: 210vh;
+    }
+    .projet{
+        width: 470px;
+        padding:20px;
+        gap: 20px;
+        background-color: var(--color2);
+        border: none;
+        border-radius: 30px;
+    }
+    .projet img{
+        width: 430px;
     }
 }
 
