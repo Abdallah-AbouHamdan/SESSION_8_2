@@ -80,3 +80,99 @@ header::before {
 
 
 
+
+
+.home-sec {
+    background-color: var(--color2);
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 30px;
+}
+
+.p2 {
+    font-size: 3.8rem;
+    background: linear-gradient(90deg, var(--color5), var(--color6));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+.p3 {
+    color: var(--color4);
+    font-size: 3rem;
+}
+
+.p4 {
+    color: var(--color3);
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-s-d1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 50%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(20%);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(20%);
+    }
+}
+
+.h-s-d2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.h-s-d2 img {
+    animation: float 20s ease-in-out infinite;
+    border-radius: 50px;
+}
+
+.btn1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn1 button {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    color: var(--color5);
+    border: 1px solid var(--color5);
+}
+
+.btn1 button:hover {
+    transition: 0.5s ease-in-out;
+    color: var(--color3);
+    border: 1px solid var(--color3);
+    background-color: var(--color5);
+}
+
+
